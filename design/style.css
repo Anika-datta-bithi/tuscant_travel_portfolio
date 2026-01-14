@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    width:100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding:15px 0;
+}
+.navlink-container{
+    display:flex;
+    gap:40px;
+    list-style:none;
+}
+.navlink-container li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+.register-container{
+    display:flex;
+    gap:40px;
+    color:white;
+    font-size:20px;
+    align-items: center;
+}
+#sign-btn{
+    border-radius:50px;
+    background-color: var(--Orange, rgba(250, 139, 2, 1));
+    padding: 10px 24px 10px 24px;
+}
+main{
+    width:1200px;
+    margin:50px auto;
+    /* auto will only work if width is given */
+}
+
+.popular-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.popular-icons{
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+.popular-icons .icon-1{
+    background-color: rgba(239, 239, 239, 1);
+    border-radius: 50%;
+    padding:10px;
+}
+.popular-icons .icon-2{
+    background-color: rgba(250, 139, 2, 1);
+    border-radius: 50%;
+    color:white;
+    padding:10px;
+}
+.popular-card{
+    display:flex;
+    gap:40px;
+    margin-top:50px;
+}
+.single-card{
+width:280px;
+}
+span{
+    color:rgba(250, 139, 2, 1);
+}
+.icons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgba(250, 139, 2, 1);
+}
+.card-icon{
+    display:flex;
+    gap:6px;
+    align-items: center;
+}
+
+/* Company */
+.company{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 287px;
+    position:relative;
+}
+.company-content{
+    width:700px;
+    position:absolute;
+    top:100px;
+    right:0;
+}
+.company-content h1{
+    margin-top:6px;
+}
+.content-details{
+    margin-top:32px;
+}
+.company-details{
+    display:flex;
+    justify-content:space-around;
+    /* gap:50px; */
+    margin-top: 32px;
+}
+.single-details{
+    width:83px;
+}
+.company-details h2{
+   color:rgba(250, 139, 2, 1);
+   font-size: 32px;
+   font-weight:bold;
+}
+
+/* organizes */
+.organizes-content{
+    text-align: center;  
+    width:570px; 
+}
+.organizes{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 267px;
+    background-color:rgba(255, 255, 255, 0.3);
+}
