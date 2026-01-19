@@ -7,6 +7,8 @@
     justify-content:space-around;
     align-items: center;
     padding:20px 0;
+    position:fixed;
+    width:100%;
 }
 .navlink-container{
     display:flex;
@@ -36,6 +38,7 @@
 }
 .sign-btn{
     padding: 10px 24px 10px 24px;
+    font-size: 20px;
     border-radius: 50px;
     color: var(--white, rgba(255, 255, 255, 1));
     background: var(--Orange, rgba(250, 139, 2, 1));
@@ -43,4 +46,101 @@
 main{
     width:1200px;
     margin:15px auto;
+}
+
+/* Contact */
+.contact-info{
+    display:flex;
+    justify-content:space-between;
+    padding:60px;
+    background-image: url('../image/Organization.png');
+}
+
+.contact-form{
+    width:450px;
+    border-radius: 24px;
+background: rgba(255, 255, 255, 0.3);
+padding:30px; 
+font-size: 18px;
+}
+.contact-form button{
+    text-align: center;
+    margin:20px 130px;
+}
+.contact-form input{
+   padding: 14px 24px 14px 24px;
+   border-radius: 8px;
+   margin-bottom:30px;
+   background: var(--white, rgba(255, 255, 255, 1));
+}
+.contact-form textarea{
+    padding: 14px 24px 14px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    background: var(--white, rgba(255, 255, 255, 1));
+}
+.contact-form input,.contact-form textarea{
+    width:90%;
+}
+.contact-content p{
+    margin:10px 0;
+    padding:16px;
+    font-size: 18px;
+}
+.contact-content span{
+   margin-right:10px;
+   color:rgba(250, 139, 2, 1);
+}
+
+/* footer */
+footer{
+    margin-top: 560px auto;
+    padding:30px 0;
+    background-color: var(--black, rgba(51, 51, 51, 1));;
+}
+.footer img{
+   /* margin-bottom:30px; */
+}
+.footer-section{
+    width:1200px;
+    margin:50px auto;
+}
+.footer-content{
+    display:flex;
+    gap:93.7px;
+    border-top:2px solid gray;
+    border-bottom:2px solid gray;
+    padding:30px 0;
+    margin:30px 0;
+}
+.footer-content ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-content ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+.bold-footer{
+    font-weight:bold;
+    font-size: 20px;
+}
+.last-footer-content{
+  text-align: center;
+}
+.last-footer-content p{
+    color:white;
+}
+.social-content{
+    text-align: center;
+}
+.social-icon{
+    display:flex;
+    gap:10px;
+}
+.social-icon a i{
+    font-size: 30px;
+    color:rgba(250, 139, 2, 1);
+    /* background-color: rgba(250, 139, 2, 1); */
 }
