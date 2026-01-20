@@ -7,3 +7,8 @@ Icons: cdnjs
 after git push if it shows any fatal of remote then give this command:
 
 git remote set-url origin https://Anika-datta-bithi@github.com/Anika-datta-bithi/luxury-hotel-final.git
+
+
+git push . diye kaj na hole, 
+
+git push -u origin main

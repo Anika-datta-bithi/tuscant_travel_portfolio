@@ -160,15 +160,17 @@ footer{
 }
 /* Book */
 .book{
-    display:flex;
-    margin-top:120px;
-    position:relative;
-    text-align: center;
+ margin:120px 30px;
+    background-image: url('../image/Organization.png');
     background-size: cover;
     
 }
+.book-bike{
+    display: flex;
+    justify-content: space-between;
+}
 .book h2{
-   
+    
 }
 .book-now{
     background-color: rgba(255, 255, 255, 0.3);
@@ -200,9 +202,8 @@ form p{
 }
 
 .bike-image{
-    position:absolute;
-    right:0;
-    top:330px;
+    position:relative; 
+    top:50px;
 }
 /* Customers */
 .customers{
